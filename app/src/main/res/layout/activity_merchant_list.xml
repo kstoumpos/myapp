@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f6f6f6"
+    >
+
+    <include layout="@layout/custom_bar_merhant_info" />
+
+    <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/listViewMerchantList"-->
+        <!--&gt;-->
+
+    <!--</ListView>-->
+
+    <GridView
+        android:id="@+id/listViewMerchantList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:padding="25dp"
+        android:numColumns="2"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="15dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>

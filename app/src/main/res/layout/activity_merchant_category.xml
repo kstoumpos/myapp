@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f7f7f7"
+    >
+
+
+    <include layout="@layout/custom_bar_merhant_info" android:id="@+id/actionbar" />
+
+
+    <ImageView
+        android:id="@+id/infoMerchantBackImage"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:src="@drawable/stake"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/actionbar"
+        />
+
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/infoMerchantBackImage"
+        android:background="#ffffff"
+        android:layout_marginTop="-80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        >
+
+        <ImageView
+            android:id="@+id/merchantItemImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scaleType="fitCenter"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/titleSubtitleSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_below="@id/infoMerchantBackImage"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:weightSum="2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:id="@+id/merchantItemName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="0dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="24dp"
+                    android:text="TextView"
+                    android:textSize="32sp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_weight="1.2"
+                    android:textStyle="normal|bold" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/merchantItemTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="0dp"
+                android:paddingLeft="20dp"
+                android:text="TextView"
+                android:layout_weight="2"
+                android:textSize="17sp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimary"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="0dp"
+        android:scrollY="240dp"
+        android:layout_below="@id/titleSubtitleSection"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/merchantItemDesc"
+            android:text="TextView"
+            android:fontFamily="sans-serif-light"
+            android:textSize="14sp" />
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

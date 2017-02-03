@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="action_sign_in">Εισαγωγή ή Εγγραφή</string>
+    <string name="action_sign_in_short">Εισαγωγή</string>
+    <string name="error_field_required">Το πεδίο είναι υποχρεωτικό</string>
+    <string name="error_incorrect_password">Ο κωδικός δεν είναι ο σωστός</string>
+    <string name="error_invalid_email">Το email δεν είναι έγκυρο</string>
+    <string name="error_invalid_password">Ο κωδικός απαιτεί περισσότερους χαρακτήρες</string>
+    <string name="login">Είσοδος</string>
+    <string name="one">Νέα</string>
+    <string name="title_activity_login">Είσοδος</string>
+    <string name="two">Προσφορές</string>
+    <string name="everything_you_need_one_app" >Όλα όσα χρειάζεσαι, σε μια εφαρμογή!</string>
+    <string name="ls_login">Είσοδος</string>
+    <string name="skip">Παράβλεψη</string>
+    <string name="slide_1_desc" >Description</string>
+    <string name="news_tab">Ν έ α</string>
+    <string name="deals_tab">Π ρ ο σ φ ο ρ έ ς</string>
+    <string name="register">Εγγραφή</string>
+    <string name="terms">Όροι και προϋποθέσεις</string>
+    <string name="choose_language">Επιλογή γλώσσας:</string>
+    <string name="language_greek">Ελληνικά</string>
+    <string name="language_english">English</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="my_wallet">το πορτοφόλι μου</string>
+
+    <string name="travel">ταξίδια</string>
+    <string name="beauty">ομορφιά</string>
+    <string name="needs">καθημερινές\nανάγκες</string>
+    <string name="wallet">πορτοφόλι</string>
+    <string name="loyalty">επιβράβευση</string>
+    <string name="deals_intro">προσφορές</string>
+
+
+    <string name="coming_soon">Έρχεται σύντομα</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="7dp"
+    android:paddingTop="7dp"
+    android:background="#e7e7e7"
+    android:layout_marginTop="0dp"
+    >
+
+    <ImageButton
+        android:id="@+id/logo_menu"
+        android:src="@drawable/logo"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="fitCenter" />
+
+
+    <ImageButton
+        android:id="@+id/action_back_from_site"
+        android:src="@drawable/arrow_left_purple"
+        android:layout_height="27dp"
+        android:layout_width="27dp"
+        android:layout_marginLeft="18dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitEnd"
+        />
+
+    <ImageButton
+        android:id="@+id/action_merchant_info"
+        android:src="@drawable/info"
+        android:layout_height="33dp"
+        android:layout_width="33dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="fitStart"
+        />
+
+
+
+</RelativeLayout>

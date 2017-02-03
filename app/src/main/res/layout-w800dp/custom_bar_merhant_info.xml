@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="12dp"
+    android:paddingTop="12dp"
+    android:background="#e7e7e7"
+    android:layout_marginTop="0dp"
+    >
+
+    <ImageButton
+        android:id="@+id/logo_menu"
+        android:src="@drawable/logo"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/action_merchant_info_close"
+        android:src="@drawable/arrow_left_purple"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="fitStart"
+        />
+
+    <ImageButton
+        android:id="@+id/action_merchant_cat_icon"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="fitStart"
+        />
+
+</RelativeLayout>

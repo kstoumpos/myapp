@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/everything_you_need_one_app"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="26dp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="80dp"
+            android:textAlignment="center"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1.2"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/intro_left_arrow"
+                android:id="@+id/introLeftArrow"
+                />
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="8"
+                android:scaleType="fitCenter"
+                android:src="@drawable/intro_cat_06"
+                android:id="@+id/imageView3" />
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1.2"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/intro_right_arrow"
+                android:id="@+id/introRightArrow"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:src="@drawable/deals_banner"
+            android:scaleType="fitCenter"
+            android:id="@+id/imageView5"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="60dp"
+            />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/intro_btn_1"
+            android:id="@+id/experience_intro_button" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

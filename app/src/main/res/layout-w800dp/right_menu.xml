@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/accent"
+    >
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="7dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_wallet"
+        android:typeface="sans"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:paddingLeft="18dp"
+        android:background="@drawable/menu_bg"
+        android:textColor="@color/white"
+        />
+
+
+
+    <ListView
+    android:id="@+id/right_menu_listview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:divider="@color/transparent"
+        />
+
+
+<ImageView
+    android:layout_width="190dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:src="@drawable/coming_soon_en"
+    android:layout_marginTop="60dp"
+    />
+
+</LinearLayout>

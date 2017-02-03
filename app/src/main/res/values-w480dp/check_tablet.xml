@@ -1,0 +1,3 @@
+<resources>
+    <integer name="isTablet">2</integer>
+</resources>

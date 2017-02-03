@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/user_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/send_money"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Send Money" />
+        <item
+            android:id="@+id/request_money"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Request Money" />
+        <item
+            android:id="@+id/transaction_history"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Transaction History" />
+
+        <item
+            android:id="@+id/user_login"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Login" />
+
+
+
+</menu>

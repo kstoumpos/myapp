@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:paddingBottom="6dp"
+        android:orientation="vertical"
+        android:background="@drawable/blue_bottom_border"
+        >
+
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/my_app_intro_logo_paperclip"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/menuProgress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        />
+
+
+    <ExpandableListView
+        android:id="@+id/left_menu_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:groupIndicator="@color/transparent"
+        />
+
+</LinearLayout>
